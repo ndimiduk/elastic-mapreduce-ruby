@@ -41,7 +41,7 @@ module Amazon
         @timeout = args[:timeout]
 
         @connect_timeout = 5.0 if @connect_timeout.nil?
-        @timeout = 5.0 if @timeout.nil?
+        @timeout = 60.0 if @timeout.nil?
 
         raise ArgumentError, "connect_timeout must be non-negative" if @connect_timeout < 0
         raise ArgumentError, "timeout must be non-negative" if @timeout < 0
