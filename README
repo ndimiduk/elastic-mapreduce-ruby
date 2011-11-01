@@ -1,5 +1,16 @@
 = Amazon Elastic Map Reduce Ruby Client Readme 
 
+== UNOFFICIAL TRACKING REPOSITORY
+
+This is an unofficial fork of the AWS ElasticMapreduce CLI and ruby
+client. It tracks my local modifications and is only as up-to-date
+as my utilization of the service.
+
+Use at your own discretion; your AWS bill is never the responsibility
+of the author(s).
+
+== Original README
+
 Location of the Ruby Client: 
 
   http://elasticmapreduce.s3.amazonaws.com/elastic-mapreduce-ruby.zip
