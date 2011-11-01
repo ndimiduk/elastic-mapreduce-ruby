@@ -618,7 +618,7 @@ module Commands
 
     def enact(client)
       super(client)
-      exec "ssh -i #{key_pair_file} hadoop@#{hostname} #{get_field(:cmd, "")}"
+      exec "ssh -i #{key_pair_file} -A hadoop@#{hostname} #{get_field(:cmd, "")}"
     end
   end
 
